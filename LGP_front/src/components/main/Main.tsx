@@ -1,13 +1,9 @@
 import React from "react";
 import { Route, Router, Routes } from "react-router-dom";
-import Hero from "./Hero";
-import DreamTeam from "./DreamTeam";
-import FarGalaxy from "./FarGalaxy";
-import { navItems } from "../../utils/constants";
 import Home from "../pages/Home";
-import AboutMe from "../pages/AboutMe";
-import StarWars from "../pages/StarWars";
-import Contacts from "../pages/Level";
+import About from "../pages/About";
+import Levels from "../pages/Level";
+import Registration from "../pages/Registration";
 
 
 interface MainProps {
@@ -18,21 +14,12 @@ const Main: React.FC<MainProps> = ({ page }) => {
   return(
     <Routes>
     <Route path='/' element={<Home />} />
-    <Route path='/about' element={<AboutMe/>} />
-    <Route path='/level' element={<Level/>} />
-    <Route path='/starwars' element={<StarWars/>} />
+    <Route path='/about' element={<About/>} />
+    <Route path='/level' element={<Levels/>} />
+    <Route path='/registration' element={<Registration/>} />
 </Routes>
   )
-  // switch (page) {
-  //   case navItems[0]:
-  //     return <Home />;
-  //   case navItems[1]:
-  //     return <AboutMe />;
-  //   case navItems[2]:
-  //     return <StarWars />;
-  //   default:
-  //     return <Contacts />;
-  // }
+ 
 };
 
 export default Main;
