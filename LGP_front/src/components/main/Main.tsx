@@ -7,7 +7,7 @@ import { navItems } from "../../utils/constants";
 import Home from "../pages/Home";
 import AboutMe from "../pages/AboutMe";
 import StarWars from "../pages/StarWars";
-import Contacts from "../pages/Contacts";
+import Contacts from "../pages/Level";
 
 
 interface MainProps {
@@ -19,7 +19,7 @@ const Main: React.FC<MainProps> = ({ page }) => {
     <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/about' element={<AboutMe/>} />
-    <Route path='/contacts' element={<Contacts/>} />
+    <Route path='/level' element={<Level/>} />
     <Route path='/starwars' element={<StarWars/>} />
 </Routes>
   )

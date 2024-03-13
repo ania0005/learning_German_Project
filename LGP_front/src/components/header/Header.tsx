@@ -11,7 +11,8 @@ const Header: React.FC<HeaderProps> = ({ onPageChange }) => {
   return (
     <header>
       <Navigation onPageChange={onPageChange} />
-      <h1 className='text-center'>Luke SkyWalker</h1>
+      <h1 className='text-center'>Learn German grammar with us!!!!!</h1>
+      <h1 className='text-center'>Learning German grammar with exercises.</h1>
     </header>
   );
 };
