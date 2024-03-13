@@ -11,9 +11,9 @@ import friend9 from '../images/friend9.jpg';
 
 export const navItems: {item: string, path: string}[] = [
     { item: "Home", path: "/" },
-    { item: "About me", path: "/about" },
+    { item: "About", path: "/about" },
     { item: "Level of study", path: "/level" },
-    { item: "Star Wars", path: "/starwars" },
+    { item: "Registration", path: "/registration" },
   ];
 export const friends = [
     friend1, friend2, friend3, friend4, friend5, friend6, friend7, friend8, friend9

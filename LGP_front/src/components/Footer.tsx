@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='row m-0 w-100'>
       <div className='btn btn-danger col-2 offset-2 '>
         <p className='m-0'>
-          Send me an
+        Send us an 
           <span className='text-uppercase'> email</span>
         </p>
       </div>
